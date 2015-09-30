@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body{
+  font-family: Inconsolata, Courier;
+  width: 370px;
+  margin: 0 auto;
+  vertical-align: middle;
+  color: #2D3030;
+  background-color: #101010;
+  line-height: 20px;
+}
+
+h3{
+  font-size: 16px;
+  color: #2D3030;
+  font-weight: normal;
+  margin: 0px;
+  margin-top: 60px;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  color: #CCCFCB;
+  list-style-type: none;
+}
+
+ul li b:after{
+  content: " : ";
+  color: #32312E;
+  float: right;
+  margin-right: 8px
+}
+
+a{
+  color: #CCCFCB;
+}
+
+.general li b{
+  width: 88px;
+  display: inline-block;
+  text-transform: lowercase;
+}
+
+.personal li b{
+  width: 102px;
+  display: inline-block;
+  text-transform: lowercase;
+}
+
+span.separator:after{
+  content: '#--------------------------------------------'
+}
