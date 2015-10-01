@@ -32,6 +32,12 @@ ul{
   list-style-type: none;
 }
 
+ul li b{
+  font-weight: normal;
+  display: inline-block;
+  text-transform: lowercase;
+}
+
 ul li b:after{
   content: " : ";
   color: #32312E;
@@ -45,14 +51,10 @@ a{
 
 .general li b{
   width: 88px;
-  display: inline-block;
-  text-transform: lowercase;
 }
 
 .personal li b{
   width: 102px;
-  display: inline-block;
-  text-transform: lowercase;
 }
 
 span.separator:after{
