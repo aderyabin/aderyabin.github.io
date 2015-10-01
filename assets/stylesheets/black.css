@@ -9,7 +9,7 @@ html {
 
 body{
   font-family: Inconsolata, Courier;
-  width: 370px;
+  width: 100%;
   margin: 0 auto;
   vertical-align: middle;
   color: #2D3030;
@@ -59,4 +59,38 @@ a{
 
 span.separator:after{
   content: '#--------------------------------------------'
+}
+
+
+@media screen and (device-aspect-ratio: 40/71) {
+  body{
+    font-size: 26px;
+    line-height: 32px;
+    font-family: Courier;
+  }
+  
+  h3{
+    font-size: 30px;
+  }
+
+  b{
+    font-size: 30px;
+    font-weight: normal;
+  }
+
+  .general li b{
+    width: 180px;
+  }
+
+  .personal li b{
+    width: 226px;
+  }
+
+  span.separator{
+    font-size: 30px;
+  }
+
+  span.separator:after{
+    content: '#--------------------------------------------------'
+  }  
 }
